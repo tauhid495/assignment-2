@@ -15,7 +15,7 @@ root{
    
 }
 
-/* Header section style  */
+/* Nav section style  */
 
 nav{
     display: flex;
@@ -45,4 +45,43 @@ nav{
 }
 .fa-search, .fa-shopping-cart{
     font-size: 25px;
+}
+
+/* Header section style  */
+
+.container{
+    display: flex;
+    margin-left: 8%;
+    margin-right: 8%;
+    align-items:center;
+}
+.header-left{
+    width: 50%;
+}
+.header-left>h1{
+    font-size: 52px;
+}
+.highlight{
+    color: #E02C6D;
+}
+.header-right{
+    width: 50%;
+    margin-left: 100px;
+}
+img{
+    width: 80%;
+}
+
+.common-button{
+    background-color: #E02C6D;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    border-radius: 15px;
+    padding: 5px 20px;
+    border: none;
+    cursor: pointer;
+}
+.common-button a{
+    text-decoration: none;
 }
