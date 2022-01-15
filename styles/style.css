@@ -21,7 +21,6 @@ nav{
     display: flex;
     justify-content: space-between;
     height: 100px;
-    align-items: center;
     margin-left: 8%;
     margin-right: 8%;
     
@@ -29,6 +28,10 @@ nav{
 .nav-left{
     font-size: 24px;
     color: var(--text-color);
+    margin-top: 30px;
+}
+.nav-right{
+    margin-top: 35px;
 }
 .nav-right, .nav-left{
     font-weight: 600;
@@ -36,6 +39,7 @@ nav{
 .menu{
     display: flex;
 }
+
 .menu>li{
     margin-right: 20px;
     padding: 5px 10px;
