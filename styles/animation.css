@@ -1,0 +1,155 @@
+
+.container:hover .heading::before{
+    content: 'Start As Influencer';
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: var(--base-color);
+    animation: typing 3s ease-in-out infinite;
+}
+
+@keyframes typing {
+    0% {
+        content: 'S|';
+    }
+
+    4% {
+        content: 'St|';
+    }
+
+    8% {
+        content: 'Sta|';
+    }
+
+    12% {
+        content: 'Star|';
+    }
+
+    16% {
+        content: 'Start|';
+    }
+
+    20% {
+        content: 'Start A|';
+    }
+
+    24% {
+        content: 'Start As|';
+    }
+
+    28% {
+        content: 'Start As I|';
+    }
+
+    32% {
+        content: 'Start As In|';
+    }
+
+    36% {
+        content: 'Start As Inf|';
+    }
+
+    40% {
+        content: 'Start As Infl|';
+    }
+
+    44% {
+        content: 'Start As Influ|';
+    }
+
+    48% {
+        content: 'Start As Influe|';
+    }
+
+    52% {
+        content: 'Start As Influen|';
+    }
+
+    56% {
+        content: 'Start As Influenc|';
+    }
+
+    60% {
+        content: 'Start As Influence|';
+    }
+    64% {
+        content: 'Start As Influencer|';
+    }
+    68% {
+        content: 'Start As Influencer|';
+    }
+
+    /* 68%,
+    83% {
+        content: 'Start As Influencer|';
+    }
+
+    84% {
+        content: 'Programming her|';
+    }
+
+    85% {
+        content: 'Programming he|';
+    }
+
+    86% {
+        content: 'Programming h|';
+    }
+
+    87% {
+        content: 'Programming |';
+    }
+
+    88% {
+        content: 'Programming|';
+    }
+
+    89% {
+        content: 'Programmin|';
+    }
+
+    90% {
+        content: 'Programmi|';
+    }
+
+    91% {
+        content: 'Programm|';
+    }
+
+    92% {
+        content: 'Program|';
+    }
+
+    93% {
+        content: 'Progra|';
+    }
+
+    94% {
+        content: 'Progr|';
+    }
+
+    95% {
+        content: 'Prog|';
+    }
+
+    96% {
+        content: 'Pro|';
+    }
+
+    97% {
+        content: 'Pr|';
+    }
+
+    98% {
+        content: 'P|';
+    }
+
+    99% {
+        content: '|';
+    }
+
+    100% {
+        content: '|';
+    } */
+
+}

@@ -84,8 +84,9 @@ nav{
 .header-left{
     width: 50%;
 }
-.header-left>h1{
+.heading{
     font-size: 52px;
+    position: relative;
 }
 .highlight{
     color: #E02C6D;
