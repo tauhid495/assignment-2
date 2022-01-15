@@ -87,6 +87,7 @@ nav{
 .heading{
     font-size: 52px;
     position: relative;
+    white-space: nowrap;
 }
 .highlight{
     color: #E02C6D;
@@ -258,6 +259,10 @@ footer{
         padding: 5px 5px;
         list-style: none;
     }
+/* heading section  */
+    .heading{
+        font-size: 40px;
+    }
 
 /* popular products  */
 
@@ -300,6 +305,7 @@ footer{
         margin-left: 2%;
         margin-right: 2%;
     }
+    
     .header-left{
         width: 90%;
         text-align: center

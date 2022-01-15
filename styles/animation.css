@@ -6,6 +6,16 @@
     left: 0;
     color: var(--base-color);
     animation: typing 3s ease-in-out infinite;
+    white-space: nowrap;
+}
+
+@media only screen and (max-width:688px){
+
+    .container:hover .heading::before{
+        content: none;
+        animation: none;
+    }
+
 }
 
 @keyframes typing {
