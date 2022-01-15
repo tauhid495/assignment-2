@@ -34,25 +34,24 @@ nav{
     justify-content: space-between;
     height: 100px;
     margin-left: 8%;
-    margin-right: 8%;
-    
+    margin-right: 8%; 
 }
 .nav-left{
     font-size: 24px;
     color: var(--text-color);
     margin-top: 30px;
 }
-.nav-right{
+.menu{
     margin-top: 35px;
 }
-.nav-right, .nav-left{
+.menu, .nav-left{
     font-weight: 600;
 }
 .menu{
-    display: flex;
+    display:flex;
 }
 
-.menu>li{
+.menu li{
     margin-right: 20px;
     padding: 5px 10px;
     list-style: none;
@@ -64,6 +63,13 @@ nav{
 .fa-search, .fa-shopping-cart{
     font-size: 25px;
 }
+#toggler{
+    display: none;
+}
+.toggler-icon{
+    display: none;
+}
+
 
 /* Header section style  
 ------------------- */
@@ -240,6 +246,27 @@ footer{
 ------------------- */
 @media (max-width:688px){
 
+    /* nav section  */
+    .toggler-icon{
+        display: block;
+        margin-top: 35px;
+    }
+    .menu{
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        padding: 10px 0;
+        transform: translateY(-330px);
+        transition: .5s ease-in-out;
+    }
+    #toggler:checked ~ .menu{
+        transform: translateY(0px);
+    }
+
 /* header section  */
     .container{
         flex-direction:column-reverse;
@@ -274,8 +301,7 @@ hr{
     margin-top: 50px;
 }
 .company-logo{
-    display: flex;
-    height: 80px;
+    height: 60px;
     align-items: center;
 }
 .company-logo>img{
@@ -298,7 +324,7 @@ h2{
     grid-template-columns: 1fr;
 }
 .product, .h2{
-    text-align: center;
+    text-align: left;
 }
 
 .product img{
