@@ -244,7 +244,37 @@ footer{
 
 /* mobile responsive
 ------------------- */
-@media (max-width:688px){
+
+
+/* responsiv for tablet */
+@media only screen and (max-width:992px){
+
+    /* nav section  */
+    nav{
+        margin-bottom: 40px;
+    }
+    .nav-left{
+        margin-top: 50px;
+    }
+    .menu{
+        margin-top: 53px;
+    }
+    .menu li{
+        margin-right: 20px;
+        padding: 5px 5px;
+        list-style: none;
+    }
+
+/* popular products  */
+
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+}
+
+@media only screen and (max-width:688px){
 
     /* nav section  */
     .toggler-icon{
@@ -260,7 +290,7 @@ footer{
         align-items: center;
         background-color: rgb(247, 196, 221);
         padding: 10px 0;
-        transform: translateY(-330px);
+        transform: translateY(-350px);
         transition: .5s ease-in-out;
 
     }
@@ -316,7 +346,6 @@ hr{
     margin-left: 2%;
     margin-right: 2%;
 }
-
 h2{
     margin-bottom: 20px;
 }
@@ -327,15 +356,12 @@ h2{
 .product, .h2{
     text-align: left;
 }
-
 .product img{
     width: 90%;
 }
-
 .h3{
     font-size: 24px;
 }
-
 .see-more{
     text-align: center;
 }
@@ -383,6 +409,5 @@ footer{
     margin-right:10px;
     color: white;
 }
-
 
 }
